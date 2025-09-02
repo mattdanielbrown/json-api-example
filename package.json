@@ -15,9 +15,13 @@
     "json-api": "^3.0.0-rc.6.0.1",
     "mongoose": "4.8.x",
     "path-to-regexp": "0.1.2",
-    "pluralize": "0.0.10"
+    "pluralize": "0.0.10",
+    "@snyk/protect": "latest"
   },
   "scripts": {
-    "start": "node src/index.js"
-  }
+    "start": "node src/index.js",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
