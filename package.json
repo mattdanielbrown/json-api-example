@@ -14,7 +14,7 @@
     "express-simple-router": "0.0.x",
     "json-api": "^3.0.0-rc.6.0.1",
     "mongoose": "4.8.x",
-    "path-to-regexp": "0.1.2",
+    "path-to-regexp": "8.2.0",
     "pluralize": "0.0.10"
   },
   "scripts": {
