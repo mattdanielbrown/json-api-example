@@ -7,8 +7,8 @@
     "node": ">=6.0.0"
   },
   "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.3",
+    "body-parser": "^1.20.4",
+    "express": "^4.22.0",
     "express-session": "^1.15.6",
     "express-simple-firewall": "1.0.x",
     "express-simple-router": "0.0.x",
